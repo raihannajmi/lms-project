@@ -21,7 +21,7 @@ $avatar = substr(Auth::user()->name, 0, 2);
     <meta name="keywords"
         content="admin template, Vuexy admin template, dashboard template, flat admin template, responsive admin template, web app">
     <meta name="author" content="PIXINVENT">
-    <title>SD INPRES CAMBAYA IV</title>
+    <title>Al Firdaus World Class Islamic School</title>
     <link rel="apple-touch-icon" href="app-assets/images/ico/apple-icon-120.html">
     <link rel="shortcut icon" type="image/x-icon" href="{{ asset('app-assets/images/logo/logo.png') }}">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;1,400;1,500;1,600"
@@ -425,7 +425,7 @@ $avatar = substr(Auth::user()->name, 0, 2);
                             class="brand-logo">
 
                             <img src="{{ asset('app-assets/images/logo/logo.png') }}" alt="" srcset=""></span>
-                        <h2 class="brand-text">CAMBAYA IV</h2>
+                        <h2 class="brand-text style="color: red;">AL FIRDAUS</h2>
                     </a></li>
                 {{-- <li class="nav-item nav-toggle"><a class="nav-link modern-nav-toggle pe-0" data-bs-toggle="collapse"><i
                             class="d-block d-xl-none text-primary toggle-icon font-medium-4" data-feather="x"></i><i
@@ -442,7 +442,7 @@ $avatar = substr(Auth::user()->name, 0, 2);
                     <ul class="menu-content">
                         <li class="{{ request()->is('/*') ? 'active' : '' }}"><a class="d-flex align-items-center"
                                 href="{{ route('home') }}"><i data-feather="circle"></i><span
-                                    class="menu-item text-truncate" data-i18n="eCommerce">CAMBAYA IV</span></a></li>
+                                    class="menu-item text-truncate" data-i18n="eCommerce">AL FIRDAUS</span></a></li>
                     </ul>
                     @if (Auth::user()->role == 'Admin')
 

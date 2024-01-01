@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>SD INPRES CAMBAYA IV</title>
+  <title>Al Firdaus World Class Islamic School</title>
   <meta content="" name="description">
   <meta content="" name="keywords">
 
@@ -38,7 +38,7 @@
   <header id="header" class="fixed-top ">
     <div class="container d-flex align-items-center justify-content-lg-between">
 
-      <h1 class="logo me-auto me-lg-0"><a href="index.html">SD INPRES CAMBAYA IV</a></h1>
+      <h1 class="logo me-auto me-lg-0"><a href="index.html">Al Firdaus World Class Islamic School</a></h1>
       <!-- Uncomment below if you prefer to use an image logo -->
       <!-- <a href="index.html" class="logo me-auto me-lg-0"><img src="img/logo.png" alt="" class="img-fluid"></a>-->
 
@@ -84,9 +84,9 @@
             <img src="assets/img/about.jpeg" class="img-fluid" alt="">
           </div>
           <div class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 content" data-aos="fade-right" data-aos-delay="100">
-            <h3>UPT SPF SD INPRES CAMBAYA IV  </h3>
+            <h3>Al Firdaus World Class Islamic School </h3>
             <p class="fst-italic">
-              Lokasinya berada di Jl. Galangan Kapal, Kelurahan Pannampu, Kecamatan Tallo, Kota Makassar.
+              Lokasinya berada diJl. Yosodipuro No.56, Punggawan, Kec. Banjarsari, Kota Surakarta, Jawa Tengah 57132.
             </p>
             <ul>
               <li><i class="ri-check-double-line"></i> Ada 11 pegawai, yang dimana 1 Kepala Sekolah, 9 Guru Pendidik, dan 1 Satpam.</li>
@@ -94,10 +94,7 @@
               <li><i class="ri-check-double-line"></i> Memiliki 169 siswa dari kelas 1 sampai 6.</li>
             </ul>
             <p>
-              Sekolah ini 1 pekarangan dengan sekolh SMPN 37 MAKASSAR, jadi pekarangannya sangat luas.
-              Letak sekolah SD INPRES CAMBAYA IV berada di gang sempit,
-              tapi tetap banyak yang ingin sekolah disana, karena prestasi-prestasinya yang sangat membanggakan
-              dan juga dikenal jauh oleh masyarakat.
+              Elementary – Primary Years Programme (PYP) is a program designed for students aged 7 to 12 years. PYP’s transdisciplinary framework focuses on the development of the child as an inquirer, both in school and in life outside of school.
             </p>
           </div>
         </div>
@@ -212,7 +209,7 @@
         </div>
 
         <div>
-          <iframe style="border:0; width: 100%; height: 270px;" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3973.922787783762!2d119.42775811476392!3d-5.116145696286997!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dbefd6f8423078f%3A0xba138173686bd867!2sSD%20Inpres%20Cambaya%20IV!5e0!3m2!1sid!2sid!4v1635005975480!5m2!1sid!2sid" frameborder="0" allowfullscreen=""></iframe>
+          <iframe style="border:0; width: 100%; height: 270px;" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31641.082031492257!2d110.77405349113123!3d-7.560228517022406!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7a1686d85c0001%3A0x4040a33dbc7fe2b8!2sYayasan%20Al%20Firdaus!5e0!3m2!1sen!2sid!4v1704116585804!5m2!1sen!2sid" frameborder="0" allowfullscreen=""></iframe>
         </div>
 
         <div class="row mt-5">
@@ -222,19 +219,19 @@
               <div class="address">
                 <i class="bi bi-geo-alt"></i>
                 <h4>Lokasi:</h4>
-                <p>Jl. Galangan Kapal, Kelurahan Pannampu, Kecamatan Tallo, Kota Makassar</p>
+                <p>Jl. Yosodipuro No.56, Punggawan, Kec. Banjarsari, Kota Surakarta, Jawa Tengah 57132</p>
               </div>
 
               <div class="email">
                 <i class="bi bi-facebook"></i>
                 <h4>Facebook:</h4>
-                <p>Sdi Cambaya IV</p>
+                <p>AL Firdaus World Class Islamic School</p>
               </div>
 
               <div class="phone">
                 <i class="bi bi-whatsapp"></i>
                 <h4>Whatsapp:</h4>
-                <p>+62 853 4195 5331</p>
+                <p>+62 857 7997 7877</p>
               </div>
 
             </div>
@@ -283,11 +280,11 @@
 
           <div class="col-lg-3 col-md-6">
             <div class="footer-info">
-              <h3>SD INPRES CAMBAYA IV</h3>
+              <h3>AL FIRDAUS</h3>
               <p>
-                Jl. Galangan Kapal <br><br>
-                <strong>Whatsapp:</strong> +62 853 4195 5331<br>
-                <strong>Facebook:</strong> Sdi Cambaya IV<br>
+                Jl. Yosodipuro No.56 <br><br>
+                <strong>Whatsapp:</strong> +62 857 7997 7877<br>
+                <strong>Facebook:</strong> AL Firdaus World Class Islamic School<br>
               </p>
               <div class="social-links mt-3">
                 <a href="https://web.facebook.com/profile.php?id=100073633400184" target="_blank" class="facebook"><i class="bx bxl-facebook"></i></a>
@@ -328,7 +325,7 @@
 
     <div class="container">
       <div class="copyright">
-        &copy; Copyright SD INPRES CAMBAYA IV
+        &copy; Copyright AL FIRDAUS
       </div>
     </div>
   </footer><!-- End Footer -->

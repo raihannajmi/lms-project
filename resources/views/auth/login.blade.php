@@ -13,7 +13,7 @@
                         <!-- Brand logo-->
                         <a class="brand-logo" href="#">
                             <img src="{{ asset('app-assets/images/logo/logo.png') }}" width="35rem" alt="">
-                            <h2 class="brand-text text-primary ms-1">SD INPRES CAMBAYA IV</h2>
+                            <h2 class="brand-text text-primary ms-1">Al Firdaus World Class Islamic School</h2>
                         </a>
                         <!-- /Brand logo-->
                         <!-- Left Text-->
