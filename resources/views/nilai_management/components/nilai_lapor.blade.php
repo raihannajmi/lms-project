@@ -12,7 +12,7 @@
                                 <tbody>
                                     <tr>
                                         <td class="pe-1">Nama Sekolah:</td>
-                                        <td><span class="fw-bold">UPT SPF SD INPRES CAMBAYA IV</span></td>
+                                        <td><span class="fw-bold">Al Firdaus World Class Islamic School</span></td>
                                     </tr>
                                     <tr>
                                         <td class="pe-1">Alamat:</td>
