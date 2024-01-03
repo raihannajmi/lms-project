@@ -38,9 +38,9 @@
   <header id="header" class="fixed-top ">
     <div class="container d-flex align-items-center justify-content-lg-between">
 
-      <h1 class="logo me-auto me-lg-0"><a href="index.html">Al Firdaus World Class Islamic School</a></h1>
+      <h1 class="logo me-auto me-lg-0"><a href="index.html" >Al Firdaus World Class Islamic School</a></h1>
       <!-- Uncomment below if you prefer to use an image logo -->
-      <!-- <a href="index.html" class="logo me-auto me-lg-0"><img src="img/logo.png" alt="" class="img-fluid"></a>-->
+      <!-- <a href="index.html" class="logo me-auto me-lg-0"><img src="img/logo.png" alt="" class="img-fluid">Al Firdaus World Class Islamic School</a></h1>-->
 
       <nav id="navbar" class="navbar order-last order-lg-0">
         <ul>
@@ -81,20 +81,20 @@
 
         <div class="row">
           <div class="col-lg-6 order-1 order-lg-2" data-aos="fade-left" data-aos-delay="100">
-            <img src="assets/img/about.jpeg" class="img-fluid" alt="">
+            <img src="assets/img/AL FIRDAUS (1).jpg" class="img-fluid" alt="">
           </div>
           <div class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 content" data-aos="fade-right" data-aos-delay="100">
             <h3>Al Firdaus World Class Islamic School </h3>
             <p class="fst-italic">
-              Lokasinya berada diJl. Yosodipuro No.56, Punggawan, Kec. Banjarsari, Kota Surakarta, Jawa Tengah 57132.
+              Lokasinya berada di Jl. Yosodipuro No.56, Punggawan, Kec. Banjarsari, Kota Surakarta, Jawa Tengah 57132.
             </p>
             <ul>
-              <li><i class="ri-check-double-line"></i> Ada 11 pegawai, yang dimana 1 Kepala Sekolah, 9 Guru Pendidik, dan 1 Satpam.</li>
-              <li><i class="ri-check-double-line"></i> Memiliki gedung bertingkat.</li>
-              <li><i class="ri-check-double-line"></i> Memiliki 169 siswa dari kelas 1 sampai 6.</li>
+              <li><i class="ri-check-double-line"></i> Early Years Primary Years Program.</li>
+              <li><i class="ri-check-double-line"></i> Elementary Primary Years Program.</li>
+              <li><i class="ri-check-double-line"></i> Middle Years Program and High School.</li>
             </ul>
             <p>
-              Elementary – Primary Years Programme (PYP) is a program designed for students aged 7 to 12 years. PYP’s transdisciplinary framework focuses on the development of the child as an inquirer, both in school and in life outside of school.
+              Elementary Primary Years Programme (PYP) is a program designed for students aged 7 to 12 years. PYP’s transdisciplinary framework focuses on the development of the child as an inquirer, both in school and in life outside of school.
             </p>
           </div>
         </div>
@@ -231,7 +231,7 @@
               <div class="phone">
                 <i class="bi bi-whatsapp"></i>
                 <h4>Whatsapp:</h4>
-                <p>+62 857 7997 7877</p>
+                <p>0812 1542 034</p>
               </div>
 
             </div>
@@ -283,11 +283,11 @@
               <h3>AL FIRDAUS</h3>
               <p>
                 Jl. Yosodipuro No.56 <br><br>
-                <strong>Whatsapp:</strong> +62 857 7997 7877<br>
+                <strong>Whatsapp:</strong> 0812 1542 034<br>
                 <strong>Facebook:</strong> AL Firdaus World Class Islamic School<br>
               </p>
               <div class="social-links mt-3">
-                <a href="https://web.facebook.com/profile.php?id=100073633400184" target="_blank" class="facebook"><i class="bx bxl-facebook"></i></a>
+                <a href="https://web.facebook.com/profile.php?id=123456789" target="_blank" class="facebook"><i class="bx bxl-facebook"></i></a>
                 <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
               </div>
             </div>
@@ -325,7 +325,7 @@
 
     <div class="container">
       <div class="copyright">
-        &copy; Copyright AL FIRDAUS
+        &copy; Copyright 2024 Al Firdaus World Class Islamic School
       </div>
     </div>
   </footer><!-- End Footer -->
