@@ -135,7 +135,7 @@
 
             <div class="swiper-slide">
               <div class="testimonial-item">
-                <h3>Niar Rukmana, S.Pd</h3>
+                <h3>Ratna Nur Mustika, S.Pd</h3>
                 <h4>Wali Kelas 2</h4>
                 <p>
                   <i class="bx bxs-quote-alt-left quote-icon-left"></i>
