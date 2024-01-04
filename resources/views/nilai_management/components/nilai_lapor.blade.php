@@ -96,7 +96,7 @@
 
                 </div>
                 <h4 class="mt-2 mb-1">B. PENGETAHUAN</h4>
-                <P class="mt-2 mb-1">Kriteria Ketuntasan Minimal = 75</P>
+                <P class="mt-2 mb-1">Kriteria Ketuntasan Minimal = 2</P>
                 <div class="card">
                     <div class="card-header">
                         <h4 class="card-title">Nilai Pengetahuan</h4>
@@ -134,7 +134,7 @@
 
                 </div>
                 <h4 class="mt-2 mb-1">C. KETERAMPILAN</h4>
-                <P class="mt-2 mb-1">Kriteria Ketuntasan Minimal = 75</P>
+                <P class="mt-2 mb-1">Kriteria Ketuntasan Minimal = 2</P>
                 <div class="card">
                     <div class="card-header">
                         <h4 class="card-title">Nilai Keterampilan</h4>
