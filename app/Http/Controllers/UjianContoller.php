@@ -83,18 +83,18 @@ class UjianContoller extends Controller
         ]);
 
         $nilai = $request->nilai;
-        if($nilai >= 92){
-            $predikat = 'A';
+        if($nilai >= 4){
+            $predikat = 'EXTENDING';
         }
-        else if($nilai >= 83 && $nilai < 92){
-            $predikat = 'B';
+        else if($nilai >= 3){
+            $predikat = 'PROFICIENTS';
         }
-        else if($nilai >= 75 && $nilai < 83){
-            $predikat = 'C';
+        else if($nilai >= 2){
+            $predikat = 'DEVELOPING';
 
         }
-        else if($nilai < 75){
-            $predikat = 'D';
+        else if($nilai < 1){
+            $predikat = 'EMERGING';
         }
 
         Nilai::create([
