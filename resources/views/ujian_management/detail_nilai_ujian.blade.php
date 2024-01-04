@@ -130,6 +130,42 @@
                                     @enderror
                                 </div>
 
+                                <div class="col-md-6 col-8" style="margin-top: -200px;"> <!-- Gaya inline untuk mengangkat card sedikit ke atas -->
+                                    <div class="card">
+                                        <div class="card-header">
+                                            <h4 class="card-title">Keterangan Predikat Nilai</h4>
+                                        </div>
+                                        <div class="card-body" style="padding-bottom: 0;">
+                                            <table class="table table-bordered">
+                                                <thead>
+                                                    <tr>
+                                                        <th>Nilai</th>
+                                                        <th>Predikat</th>
+                                                    </tr>
+                                                </thead>
+                                                <tbody>
+                                                    <tr>
+                                                        <td>1</td>
+                                                        <td>Emerging</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>2</td>
+                                                        <td>Developing</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>3</td>
+                                                        <td>Proficient</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>4</td>
+                                                        <td>Extending</td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                        </div>
+                                    </div>
+                                </div>
+
                                 <div class="col-12 text-center mt-1">
                                     <button type="submit" class="btn btn-primary me-1">Submit</button>
                                     <button type="reset" class="btn btn-outline-secondary">Reset</button>
