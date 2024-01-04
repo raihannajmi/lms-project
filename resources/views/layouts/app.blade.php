@@ -476,7 +476,7 @@ $avatar = substr(Auth::user()->name, 0, 2);
                         </ul>
                     </li>
                 @endif
-                
+
                     <li class=" navigation-header"><span data-i18n="User Interface">Siswa Management</span><i
                             data-feather="more-horizontal"></i>
                     </li>
@@ -501,10 +501,10 @@ $avatar = substr(Auth::user()->name, 0, 2);
                     </li>
             </ul>
             </li>
-            
+
 
             @if (Auth::user()->role == 'Admin' || Auth::user()->role == 'WaliKelas' )
-            @if (Auth::user()->role != 'WaliKelas') 
+            @if (Auth::user()->role != 'WaliKelas')
             <li class=" nav-item"><a class="d-flex align-items-center mt-1" href="#"><i
                             data-feather="book-open"></i><span class="menu-title text-truncate" data-i18n="User">Kelas
                             Siswa</span></a>
@@ -579,7 +579,7 @@ $avatar = substr(Auth::user()->name, 0, 2);
                 </li>
             @endif
             @if (Auth::user()->role != 'Admin' && Auth::user()->role != 'KepalaSekolah')
-            
+
             <li class=" navigation-header"><span data-i18n="User Interface">Chat Management</span><i
                         data-feather="more-horizontal"></i>
                 </li>
@@ -629,8 +629,8 @@ $avatar = substr(Auth::user()->name, 0, 2);
                 </ul>
                 </li>
             @endif
-                
-                
+
+
             <li class=" navigation-header"><span data-i18n="User Interface">Ujian Management</span><i
                     data-feather="more-horizontal"></i>
             </li>
@@ -690,6 +690,18 @@ $avatar = substr(Auth::user()->name, 0, 2);
                                         data-feather="circle"></i><span class="menu-item text-truncate"
                                         data-i18n="List">Input
                                         Nilai Sikap</span></a>
+                            </li>
+                    </li>
+                    </ul>
+                    <li class=" nav-item"><a class="d-flex align-items-center" href="#"><i
+                                data-feather="circle"></i><span class="menu-title text-truncate"
+                                data-i18n="User">Nilai POI</span></a>
+                        <ul class="menu-content">
+                            <li class="{{ request()->is('input-nilai/poi*') ? 'active' : '' }}"><a
+                                    class="d-flex align-items-center" href="{{ route('input-nilai-poi') }}"><i
+                                        data-feather="circle"></i><span class="menu-item text-truncate"
+                                        data-i18n="List">Input
+                                        Nilai POI</span></a>
                             </li>
                     </li>
                     </ul>

@@ -141,10 +141,6 @@ Route::middleware(['auth'])->group(function(){
 
             Route::delete('/show-ujian/{id}',[UjianContoller::class, 'destroy'])->name('delete-ujian');
 
-
-
-
-
     });
 
     Route::middleware(['isWaliKelas'])->group(function(){
@@ -152,6 +148,10 @@ Route::middleware(['auth'])->group(function(){
         Route::get('/input-nilai/sikap',[NilaiController::class, 'inputNilaiSikap'])->name('input-nilai-sikap');
         Route::get('/input-nilai/sikap/{id}/detail',[NilaiController::class, 'detailNilaiSikap'])->name('detail-nilai-sikap');
         Route::post('/input-nilai/sikap/{id}/detail',[NilaiController::class, 'storeNilaiSikap']);
+
+        Route::get('/input-nilai/poi', [NilaiController::class, 'inputNilaiPoi'])->name('input-nilai-poi');
+        Route::get('/input-nilai/poi/{id}/detail',[NilaiController::class, 'detailNilaiPoi'])->name('detail-nilai-poi');
+        Route::post('/store-nilai-poi', [NilaiController::class, 'storeNilaiPoi'])->name('store-nilai-poi');
 
         Route::get('input-nilai-ujian', [UjianContoller::class, 'inputNilaiUjian'])->name('input-nilai-ujian');
         Route::get('input-nilai-ujian/{id}/detail', [UjianContoller::class, 'detailNilaiUjian'])->name('detail-nilai-ujian');

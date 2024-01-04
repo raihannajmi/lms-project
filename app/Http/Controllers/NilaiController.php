@@ -9,6 +9,7 @@ use App\Models\NilaiEkstrakurikuler;
 use App\Models\NilaiPrestasi;
 use App\Models\NilaiSikap;
 use App\Models\Siswa;
+use App\Models\NilaiPoi;
 use Illuminate\Http\Request;
 
 class NilaiController extends Controller
@@ -37,7 +38,6 @@ class NilaiController extends Controller
             'semester' => ['required'],
         ]);
 
-
         NilaiSikap::create([
             'kode_siswa' => $request->kode_siswa,
             'jenis_sikap' => $request->jenis_sikap,
@@ -47,6 +47,47 @@ class NilaiController extends Controller
         ]);
 
         return redirect(route('detail-nilai-sikap', ['id' => $id]));
+    }
+
+    public function inputNilaiPoi()
+    {
+        $kelas = Kelas::all();
+        return view('nilai_management.nilai_poi', compact('kelas'));
+    }
+
+    public function detailNilaiPoi($id)
+    {
+        $siswa = Siswa::where('kode_kelas', $id)->get();
+        $kode_kelas = $id;
+
+        return view('nilai_management.detail_nilai_poi', compact(['siswa', 'kode_kelas']));
+    }
+
+    public function storeNilaiPoi(Request $request, $id)
+    {
+        $request->validate([
+            'kode_siswa' => ['required'],
+            'semester' => ['required', 'in:1(Ganjil),2(Genap)'],
+            'nilai_principled' => ['required', 'numeric', 'between:0,4'],
+            'nilai_balanced' => ['required', 'numeric', 'between:0,4'],
+            'nilai_skill' => ['required', 'numeric', 'between:0,4'],
+            'nilai_product' => ['required', 'numeric', 'between:0,4'],
+            'comment_indonesian' => ['required', 'string', 'max:1000'],
+            'comment_english' => ['required', 'string', 'max:1000'],
+        ]);
+
+        NilaiPoi::create([
+            'kode_siswa' => $request->kode_siswa,
+            'semester' => $request->semester,
+            'nilai_principled' => $request->nilai_principled,
+            'nilai_balanced' => $request->nilai_balanced,
+            'nilai_skill' => $request->nilai_skill,
+            'nilai_product' => $request->nilai_product,
+            'comment_indonesian' => $request->comment_indonesian,
+            'comment_english' => $request->comment_english,
+        ]);
+
+        return redirect(route('detail-nilai-poi', ['id' => $id]));
     }
 
     public function showNilaiLapor()
@@ -93,8 +134,8 @@ class NilaiController extends Controller
         $title = $siswa->nama_siswa;
         $semester = $request->semester;
 
-
-
         return view('nilai_management.components.nilai_lapor', compact(['nilai', 'title', 'nilaiSikapSpritual', 'nilaiSikapSosial', 'siswa', 'semester', 'absen', 'ekstrakurikuler', 'prestasi']));
     }
+
+
 }

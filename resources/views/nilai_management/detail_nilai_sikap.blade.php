@@ -79,7 +79,27 @@
                                         style="height: 100px"
                                         name="desk"
                                       ></textarea>
-                                      <label for="textarea-counter">Deskripsi</label>
+                                      <label for="textarea-counter">Komentar</label>
+                                    </div>
+                                    <small class="textarea-counter-value float-end"><span class="char-count">0</span> / 255 </small>
+                                    @error('desk')
+                                        <div class="text-danger mt-1">
+                                            {{ $message }}
+                                        </div>
+                                    @enderror
+                                </div>
+                                <div class="col-md-6 col-12">
+                                    <div class="form-floating mb-1 mt-1">
+                                      <textarea
+                                        data-length="255"
+                                        class="form-control char-textarea"
+                                        id="textarea-counter"
+                                        rows="3"
+                                        placeholder="Counter"
+                                        style="height: 100px"
+                                        name="desk"
+                                      ></textarea>
+                                      <label for="textarea-counter">Comment</label>
                                     </div>
                                     <small class="textarea-counter-value float-end"><span class="char-count">0</span> / 255 </small>
                                     @error('desk')
