@@ -15,8 +15,8 @@ class CreateNilaiPoiTable extends Migration
     {
         Schema::create('nilai_poi', function (Blueprint $table) {
             $table->id();
-            $table->unsignedBigInteger('siswa_id');
-            $table->foreign('siswa_id')->references('id')->on('siswa')->onDelete('cascade');
+            $table->unsignedBigInteger('kode_siswa');
+            $table->foreign('kode_siswa')->references('id')->on('siswa')->onDelete('cascade');
             $table->enum('semester', array('1(Ganjil)', '2(Genap)'));
             $table->string('nilai_principled');
             $table->string('nilai_balanced');

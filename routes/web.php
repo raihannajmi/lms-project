@@ -151,7 +151,7 @@ Route::middleware(['auth'])->group(function(){
 
         Route::get('/input-nilai/poi', [NilaiController::class, 'inputNilaiPoi'])->name('input-nilai-poi');
         Route::get('/input-nilai/poi/{id}/detail',[NilaiController::class, 'detailNilaiPoi'])->name('detail-nilai-poi');
-        Route::post('/store-nilai-poi', [NilaiController::class, 'storeNilaiPoi'])->name('store-nilai-poi');
+        Route::post('/input-nilai/poi/{id}/detail', [NilaiController::class, 'storeNilaiPoi'])->name('store-nilai-poi');
 
         Route::get('input-nilai-ujian', [UjianContoller::class, 'inputNilaiUjian'])->name('input-nilai-ujian');
         Route::get('input-nilai-ujian/{id}/detail', [UjianContoller::class, 'detailNilaiUjian'])->name('detail-nilai-ujian');
